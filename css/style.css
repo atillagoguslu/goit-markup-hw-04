@@ -56,6 +56,7 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  position: relative;
 }
 
 .logo-second-side {
@@ -252,7 +253,6 @@ body {
 
 .logo-margin {
   margin-right: 76px;
-  position: relative;
   color: var(--ocean);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -260,7 +260,6 @@ body {
 .logo-margin::after {
   content: "";
   width: 100%;
-  position: absolute;
   left: 0;
   bottom: -1px;
   height: 4px;
