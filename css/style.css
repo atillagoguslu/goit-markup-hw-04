@@ -562,6 +562,9 @@ body {
 
 .footer-kapsayan-div {
   margin-right: 120px;
+  display: flex;
+  align-items: baseline;
+  
 }
 
 .footer-social-media-p {
