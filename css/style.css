@@ -72,14 +72,13 @@ header {
 .nav-links::after {
   content: "";
   width: 100%;
-  position:absolute;
+  position: absolute;
   left: 0;
   bottom: -1px;
   height: 4px;
   background-color: var(--ocean);
   border-radius: 2px;
 }
-
 
 .links-color-on-hover {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -250,7 +249,8 @@ body {
 
 .header-border {
   border-bottom: 1px solid var(--cornflower);
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-div {
@@ -305,7 +305,11 @@ body {
   margin: auto;
   padding: 188px 0px;
   flex-direction: column;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-background.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-background.jpg);
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
@@ -376,7 +380,8 @@ body {
 
 .sec-team-style {
   padding: 120px 0px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .sec-team-div {
@@ -396,7 +401,8 @@ body {
 .sec-team-list {
   width: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .sec-team-list-div {
@@ -441,6 +447,11 @@ body {
 
 .footer-main-style {
   padding: 100px 0px;
+}
+
+.footerDivi {
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-div-link {
@@ -492,18 +503,15 @@ body {
 .social-media-list-a:hover,
 .social-media-list-a:focus {
   background-color: var(--ocean);
-
 }
 
 .social-svgs {
   fill: var(--cloud);
-
 }
 
 .sec-port-list:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -516,8 +524,8 @@ body {
   transform: translateY(0%);
 }
 
- .divoneparagraph {
-  position:absolute;
+.divoneparagraph {
+  position: absolute;
   height: 100%;
   top: 0;
   font-size: 16px;
@@ -529,7 +537,7 @@ body {
   width: 100%;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
- }
+}
 
 .sec-port-list-divOne {
   position: relative;
@@ -565,7 +573,6 @@ body {
   margin-right: 120px;
   display: flex;
   align-items: baseline;
-
 }
 
 .footer-social-media-p {
@@ -586,7 +593,6 @@ body {
 .footer-social-media-li {
   width: 40px;
   height: 40px;
-
 }
 
 .footer-social-media-li-a {
