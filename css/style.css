@@ -64,18 +64,31 @@ header {
 }
 
 .nav-links {
+  position: relative;
   font-weight: 500;
-  color: var(--navy-blue);
+  color: var(--ocean);
+}
+
+.nav-links::after {
+  content: "";
+  width: 100%;
+  position:absolute;
+  left: 0;
+  bottom: -1;
+  height: 4px;
+  background-color: var(--ocean);
+  border-radius: 2px;
+}
+
+
+.links-color-on-hover {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-neutralize {
   font-style: normal;
   font-weight: 400;
   color: var(--slate);
-}
-
-.links-color-on-hover {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .links-color-on-hover:hover,
