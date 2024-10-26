@@ -449,7 +449,7 @@ body {
   padding: 100px 0px;
 }
 
-.footerDivi {
+.footerdivi {
   display: flex;
   align-items: baseline;
 }
@@ -603,6 +603,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .footer-social-media-li-a:hover,
